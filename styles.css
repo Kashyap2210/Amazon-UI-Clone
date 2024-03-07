@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 110px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* this is the deliver to box  */
+.deliver{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.country{
+    font-size: 1rem;
+    margin-left: 2px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-adress{
+    padding: 0px 9px;
+    margin: 5px 2px 5px 0px;
+}
+
+/* now we start the searchbox css */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+    /* background-color: pink; */
+}
+
+
+
+.search-select{
+    background-color: #e6e6e6;
+    width: 60px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    font-size: 0.875rem;
+}
+
+.search-select:hover{
+    background-color: #e6e6e6de;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    /* border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;*/
+} 
+
+
+.search{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    color:#0f1111;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 1.2rem;
+}
+
+.search:hover{
+    background-color: rgb(250, 166, 180);
+}
+
+/* now we start with the sign in box */
+
+.hello{
+    padding: 0px 9px 10px;
+}
+.top{
+    font-size: 0.75rem;
+}
+
+.bottom{
+    font-size: 0.85rem;
+    font-weight: 700;  
+}
+
+/* now we start box 5 */
+
+.return{
+    padding: 0px 9px 10px;
+}
+
+.top-ret{
+    font-size: 0.75rem;
+    margin: 9px 0px 0px 0px;
+}
+
+.bottom-ret{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* now we make orange boundary around the search box */
+
+
+
+/* now we make the cart symbol */
+
+.cart{
+    width: 2.7rem;
+    height: 1.5rem;
+    
+    color: white;
+
+
+    padding: 0px 9px 11px;
+    margin: 0px 3px 0px 0px;
+ 
+}
+
+.nav-cart i{
+    font-size: 30px;
+
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin: 0px 3px 0px 0px;
+    padding: 0px 9px 11px;
+}
+
+/* now we will create second header */
+
+.panel{
+    background-color: #222f3d;
+    display: flex;
+    height: 40px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+
+.panel-opts p {
+    display: inline;
+    margin-left: 25px;
+}
+
+.panel-opts{
+    width: 90%;
+    font-size: 1rem;
+}
+
+.panel-opts:hover{
+    border: 1px white solid;
+}
+
+/* now we start with the main body of our page */
+
+.hero-section{
+    height: 400px;
+    width: 100%;
+    background-image: url(herosection.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    width: 97%;
+    font-size: 0.85rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    font-size: 14px;
+    color: #007185;
+}
+
+/* now we start with the boxes */
+/* shop section */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: pink;
+   
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;   
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+/* styling for box 1 */
+
+.box-image{
+    background-image: url(pc_img1.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+}
+
+.box-content{
+    margin-left: 0.75rem;
+    margin-right: 0.9rem;
+}
+
+.box-content a{
+    color: #007185 ;
+}
+
+/* image for 2nd box */
+
+.box-image2{
+    background-image: url(Toys1.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+}
+
+.box-image3{
+    background-image: url(HomeDecor.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+}
+
+.box-image4{
+    background-image: url(Gaming_accessories.png);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-image5{
+    background-image: url(Stealdeal.png);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* border: 1px solid black; */
+}
+
+
+.box-image6{
+    background-image: url(Personal\ Care1.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* border: 1px solid black; */
+}
+
+.box-image7{
+    background-image: url(Beauty_steals3.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* border: 1px solid black; */
+}
+
+.box-image8{
+    background-image: url(Smarthome.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+footer{
+    margin-top: 1rem ;
+}
+.foot-panel1{
+    background-color: #37475A;
+    color: #ffffff;
+    font-size: 0.85rem;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel2 {
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+  
+}
+
+.foot-panel2 ul{
+    margin-top: 2rem;
+    list-style-type: none;
+  
+}
+
+.foot-panel2 li a{
+    color: white;
+    text-decoration: none;
+    line-height: 1.8rem;
+    margin: 1rem;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+
+.foot-panel2 li a:hover{
+    text-decoration: underline;
+}
+
+.heading{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+/* now we start the 3rd panel */
+
+.foot-panel3{
+    height: 70px;
+    background-color: #232F3E;
+    border-top: 1px solid #ffffff2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footer-logo{
+    height: 23px;
+    margin-right: 50px;
+    width: 76px;
+    
+}
+
+
+
+.footer-options select{
+    justify-content: start;
+    height: 23px;
+    border: 1px solid rgba(255,255,255, 0.5);
+    border-radius: 3px;
+    background-color: #232F3E;
+    color: white;
+ 
+}
+
+.select{
+    margin-top: 10px;
+}
+/* now we make 2nd footer panel */
+
+.footer-panel4{
+    background-color: #0f1111;
+    color: white;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 78px;
+}
+
+.redirect{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+.redirect a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.copyright{
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
